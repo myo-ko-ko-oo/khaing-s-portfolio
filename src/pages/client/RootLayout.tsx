@@ -5,9 +5,6 @@ import "@fontsource-variable/jost"; // Defaults to wght axis
 import "@fontsource-variable/jost/wght.css"; // Specify axis
 import "@fontsource-variable/jost/wght-italic.css";
 
-// import "@fontsource/jetbrains-mono"; // Defaults to weight 400
-// import "@fontsource/jetbrains-mono/400.css"; // Specify weight
-// import "@fontsource/jetbrains-mono/400-italic.css";
 import ScrollToTopButton from "@/components/layout/footer/ScrollToTop";
 
 const RootLayout = () => {

@@ -43,17 +43,16 @@ const Hero = () => {
             ))}
           </div>
         </div>
-        <Fade direction="right" duration={2000}>
-          <div className="flex justify-center ">
-            <img
-              src={Profile}
-              alt="profile_image"
-              loading="lazy"
-              decoding="async"
-              className="rounded-4xl lg:w-1/2 object-cover"
-            />
-          </div>
-        </Fade>
+
+        <div className="flex justify-center ">
+          <img
+            src={Profile}
+            alt="profile_image"
+            loading="lazy"
+            decoding="async"
+            className="rounded-4xl lg:w-1/2 object-cover"
+          />
+        </div>
 
         <div className="lg:hidden mt-4">
           {/* Intro section */}

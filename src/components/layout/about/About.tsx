@@ -1,4 +1,4 @@
-import { Fade, Slide } from "react-awesome-reveal";
+import { Fade } from "react-awesome-reveal";
 import CoverImage from "../../../data/images/about_cover.png";
 const About = () => {
   return (
@@ -10,17 +10,16 @@ const About = () => {
           </h1>
         </Fade>
         <div className="grid grid-cols-1 lg:grid-cols-2 ">
-          <Slide direction="left" duration={2500}>
-            <div className="flex justify-center">
-              <img
-                src={CoverImage}
-                alt="about-image"
-                decoding="async"
-                loading="lazy"
-                className="  rounded-md lg:w-2/3 lg:mr-4 mb-4"
-              />
-            </div>
-          </Slide>
+          <div className="flex justify-center">
+            <img
+              src={CoverImage}
+              alt="about-image"
+              decoding="async"
+              loading="lazy"
+              className="  rounded-md lg:w-2/3 lg:mr-4 mb-4"
+            />
+          </div>
+
           <span className="space-y-2">
             <Fade direction="down" duration={3000}>
               <p className="leading-relaxed clear-left md:clear-none">
