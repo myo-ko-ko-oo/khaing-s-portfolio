@@ -57,10 +57,16 @@ const Experience = () => {
                   <h3 className="text-lg font-semibold">{step.title}</h3>
                 </Fade>
 
-                <p className="text-sm ">{step.company}</p>
-                <p className="text-xs ">{step.period}</p>
+                <p className="text-sm text-gray-600 dark:text-gray-400">
+                  {step.company}
+                </p>
+                <p className="text-xs text-gray-600 dark:text-gray-400">
+                  {step.period}
+                </p>
                 {step.description && (
-                  <p className="mt-1 text-sm ">{step.description}</p>
+                  <p className="mt-1 text-sm text-gray-600 dark:text-gray-400">
+                    {step.description}
+                  </p>
                 )}
               </div>
             </div>

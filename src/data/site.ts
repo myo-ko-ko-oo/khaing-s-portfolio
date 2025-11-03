@@ -34,8 +34,8 @@ export const navItems = [
   },
 
   {
-    id: "projects",
-    label: "Projects",
+    id: "education",
+    label: "Education",
     icon: Icons.dashboard,
     //   icon: <FiFolder className="text-blue-500 dark:text-blue-400" />,
   },

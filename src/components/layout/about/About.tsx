@@ -1,5 +1,5 @@
 import { Fade } from "react-awesome-reveal";
-import CoverImage from "../../../data/images/about_cover.png";
+import summaryCover from "@/data/images/summary_cover.webp";
 const About = () => {
   return (
     <>
@@ -11,13 +11,17 @@ const About = () => {
         </Fade>
         <div className="grid grid-cols-1 lg:grid-cols-2 ">
           <div className="flex justify-center">
-            <img
-              src={CoverImage}
-              alt="about-image"
-              decoding="async"
-              loading="lazy"
-              className="  rounded-md lg:w-2/3 lg:mr-4 mb-4"
-            />
+            <span className="px-10">
+              <Fade direction="left" duration={2500}>
+                <img
+                  src={summaryCover}
+                  alt="about-image"
+                  decoding="async"
+                  loading="lazy"
+                  className="  rounded-md  lg:mr-4 mb-4"
+                />
+              </Fade>
+            </span>
           </div>
 
           <span className="space-y-2">

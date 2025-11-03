@@ -38,7 +38,7 @@ export const experiences = [
   {
     title: "Dibetes Educator",
     company: "Grand Hantha International Hospital",
-    period: "2023 - present (full time)",
+    period: "2023 - present ( full time )",
     logo: grandHanthaLogo,
     description:
       "Educate and support patients with diabetes, providing guidance on treatment plans and lifestyle management.Manage schedules, appointments, and administrative tasks for the professor doctor. Coordinate meetings, travel arrangements, and documentation for clinical and academic activities.",
@@ -47,7 +47,7 @@ export const experiences = [
   {
     title: "Senior Accountant",
     company: "Myint Thaw Tar Clinic",
-    period: "2024 - present (part-time)",
+    period: "2024 - present ( part-time )",
     logo: MyintThawTarLogo,
     description:
       "Manage daily financial operations including income recording, expense tracking, and bank reconciliation. Prepare financial statements and maintain accurate accounting records.Oversee inventory and ensure compliance with accounting procedures.Support management with financial planning and performance analysis.",
@@ -56,7 +56,7 @@ export const experiences = [
   {
     title: "Senior Executive (Business Intelligence Analyst)",
     company: "Oway Travel & Tour",
-    period: "2018 - 2020 (full time)",
+    period: "2018 - 2020 ( full time )",
     logo: owayLogo,
     description:
       "Collected, analyzed, and visualized large datasets to support management decision-making. Developed automated reports and dashboards to monitor sales, routes, and customer behavior. Analyzed data from Firebase, Facebook, iOS/Android, and Google Analytics to measure campaign effectiveness. Collaborated with multiple teams to optimize operations and improve data accuracy.Prepared B2B, corporate, and promotional performance reports for executive use.",
@@ -65,7 +65,7 @@ export const experiences = [
   {
     title: "Data Analyst (MIS Department)",
     company: "Oway Travel & Tour",
-    period: "2016 - 2018 (full time)",
+    period: "2016 - 2018 ( full time )",
     logo: owayLogo,
     description:
       "Collected, cleaned, and analyzed large datasets to generate actionable business insights.Designed automated Excel and BI dashboards to track sales performance, routes, and customer trends.Conducted data analysis using sources like Firebase, Facebook, iOS/Android, and Google Analytics to evaluate marketing impact.Collaborated with operations and management teams to support data-driven decision-making.Delivered B2B and corporate performance reports to improve strategic planning and efficiency.",

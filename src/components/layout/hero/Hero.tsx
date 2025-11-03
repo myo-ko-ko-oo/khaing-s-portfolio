@@ -3,7 +3,7 @@ import { Icons } from "@/components/icons";
 import { siteConfig } from "@/data/site";
 import ContactCards from "./ContactCards";
 import { Fade } from "react-awesome-reveal";
-import Profile from "@/data/images/khaingPyaeAye_Profile_Image.png";
+import profileImage from "@/data/images/kpa_profile.webp";
 
 const Hero = () => {
   return (
@@ -44,24 +44,28 @@ const Hero = () => {
           </div>
         </div>
 
-        <div className="flex justify-center ">
-          <img
-            src={Profile}
-            alt="profile_image"
-            loading="lazy"
-            decoding="async"
-            className="rounded-4xl lg:w-1/2 object-cover"
-          />
-        </div>
+        <Fade direction="right" duration={2500}>
+          <div className="flex justify-center ">
+            <img
+              src={profileImage}
+              alt="profile_image"
+              loading="lazy"
+              decoding="async"
+              className="rounded-4xl lg:w-1/2 object-cover"
+            />
+          </div>{" "}
+        </Fade>
 
         <div className="lg:hidden mt-4">
           {/* Intro section */}
           <div className="text-center space-y-2.5">
             <p className="text-xl">Hello Everyone, I’m</p>
             <h1 className="text-4xl font-bold">{siteConfig.hero_name}</h1>
-            <p className="text-xl text-emerald-400">{siteConfig.role_1}</p>
+            <p className="text-xl font-bold text-blue-600 dark:text-blue-500">
+              {siteConfig.role_1}
+            </p>
 
-            <p className="text-xl">& {siteConfig.role_2}</p>
+            <p className="text-xl font-bold">& {siteConfig.role_2}</p>
           </div>
 
           {/* Contact cards */}
