@@ -11,7 +11,7 @@ const About = () => {
         </Fade>
         <div className="grid grid-cols-1 lg:grid-cols-2 ">
           <div className="flex justify-center">
-            <span className="lg:px-0 px-10">
+            <span className="lg:px-10 px-0">
               <Fade direction="left" duration={2500}>
                 <img
                   src={summaryCover}
