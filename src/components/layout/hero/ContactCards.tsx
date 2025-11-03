@@ -1,4 +1,4 @@
-import { Fade, Slide } from "react-awesome-reveal";
+import { Fade } from "react-awesome-reveal";
 import { Icons } from "@/components/icons";
 import { contactLinks } from "@/data/data";
 

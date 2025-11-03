@@ -1,9 +1,9 @@
 import { contactLinks } from "@/data/data";
-import MyProfile from "../../../data/images/KHAING_PYAE_AYE_PROFILE_IMAGE.PNG";
 import { Icons } from "@/components/icons";
 import { siteConfig } from "@/data/site";
 import ContactCards from "./ContactCards";
 import { Fade } from "react-awesome-reveal";
+import Profile from "@/data/images/khaingPyaeAye_Profile_Image.png";
 
 const Hero = () => {
   return (
@@ -46,7 +46,7 @@ const Hero = () => {
         <Fade direction="right" duration={2000}>
           <div className="flex justify-center ">
             <img
-              src={MyProfile}
+              src={Profile}
               alt="profile_image"
               loading="lazy"
               decoding="async"
