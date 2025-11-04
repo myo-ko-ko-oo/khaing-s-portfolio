@@ -63,9 +63,14 @@ const Experience = () => {
                 <p className="text-xs text-gray-600 dark:text-gray-400">
                   {step.period}
                 </p>
+
                 {step.description && (
                   <p className="mt-1 text-sm text-gray-600 dark:text-gray-400">
-                    {step.description}
+                    {step.description.map((list: string, i) => (
+                      <ul className="list-disc ml-4" key={i}>
+                        <li>{list}</li>
+                      </ul>
+                    ))}
                   </p>
                 )}
               </div>

@@ -1,6 +1,7 @@
 import owayLogo from "../data/images/oway.jpeg";
 import MyintThawTarLogo from "../data/images/myint_thawtar_clinic.jpg";
 import grandHanthaLogo from "../data/images/grand_hantha.png";
+import northOkkalarLogo from "@/data/images/uom2-logo.png";
 import { Icons } from "../components/icons";
 
 export const contactLinks = [
@@ -36,21 +37,32 @@ export const contactLinks = [
 
 export const experiences = [
   {
-    title: "Dibetes Educator",
+    title: "Diabetes Educator",
     company: "Grand Hantha International Hospital",
     period: "2023 - present ( full time )",
     logo: grandHanthaLogo,
-    description:
-      "Educate and support patients with diabetes, providing guidance on treatment plans and lifestyle management.Manage schedules, appointments, and administrative tasks for the professor doctor. Coordinate meetings, travel arrangements, and documentation for clinical and academic activities.",
+    description: [
+      "Educate and counsel patients on diabetes management, medication adherence, diet, and lifestyle improvement.",
+      "Coordinate patient schedules, appointments, and follow-ups to ensure effective care delivery.",
+      "Assist the Professor Doctor with clinical, academic, and administrative tasks, including meeting coordination and documentation.",
+      "Maintain accurate patient records, reports, and correspondence with confidentiality and professionalism.",
+      "Support medical research activities and communication between patients, doctors, and hospital departments.",
+    ],
+    // "Educate and support patients with diabetes, providing guidance on treatment plans and lifestyle management.Manage schedules, appointments, and administrative tasks for the professor doctor. Coordinate meetings, travel arrangements, and documentation for clinical and academic activities.",
     website: "https://grandhantha.com/",
   },
   {
     title: "Senior Accountant",
     company: "Myint Thaw Tar Clinic",
-    period: "2024 - present ( part-time )",
+    period: "2024 - present ( part time )",
     logo: MyintThawTarLogo,
-    description:
-      "Manage daily financial operations including income recording, expense tracking, and bank reconciliation. Prepare financial statements and maintain accurate accounting records.Oversee inventory and ensure compliance with accounting procedures.Support management with financial planning and performance analysis.",
+    description: [
+      "Manage daily financial operations including income recording, expense tracking, and bank reconciliation.",
+      "Prepare financial statements and maintain accurate accounting records.",
+      "Oversee inventory and ensure compliance with accounting procedures.",
+      "Support management with financial planning and performance analysis.",
+    ],
+
     website: "https://www.myanmaryp.com/company/7193/Myint_Thaw_Dar",
   },
   {
@@ -58,8 +70,14 @@ export const experiences = [
     company: "Oway Travel & Tour",
     period: "2018 - 2020 ( full time )",
     logo: owayLogo,
-    description:
-      "Collected, analyzed, and visualized large datasets to support management decision-making. Developed automated reports and dashboards to monitor sales, routes, and customer behavior. Analyzed data from Firebase, Facebook, iOS/Android, and Google Analytics to measure campaign effectiveness. Collaborated with multiple teams to optimize operations and improve data accuracy.Prepared B2B, corporate, and promotional performance reports for executive use.",
+    description: [
+      "Designed and maintained interactive dashboards using Power BI and Advanced Excel to visualize KPIs and business performance.",
+      "Analyzed large datasets to identify sales trends, top-performing routes, and customer behavior patterns.",
+      "Collaborated with cross-functional teams to translate analytical findings into strategic business decisions.",
+      "Automated recurring reports using Excel formulas, pivot tables, and macros, reducing manual workload and improving data accuracy.",
+      "Utilized SQL queries and BI tools to extract and validate data from multiple sources for executive reporting.",
+    ],
+
     website: "https://oway.com.mm",
   },
   {
@@ -67,9 +85,31 @@ export const experiences = [
     company: "Oway Travel & Tour",
     period: "2016 - 2018 ( full time )",
     logo: owayLogo,
-    description:
-      "Collected, cleaned, and analyzed large datasets to generate actionable business insights.Designed automated Excel and BI dashboards to track sales performance, routes, and customer trends.Conducted data analysis using sources like Firebase, Facebook, iOS/Android, and Google Analytics to evaluate marketing impact.Collaborated with operations and management teams to support data-driven decision-making.Delivered B2B and corporate performance reports to improve strategic planning and efficiency.",
+    description: [
+      "Collected, cleaned, and transformed large data sets for business reporting using Excel and SQL-based tools.",
+      "Created automated Excel dashboards to track daily, weekly, and monthly sales and revenue metrics.",
+      "Performed data analysis on marketing and customer engagement data from Firebase, Facebook, Google Analytics, iOS, and Android platforms.",
+      "Collaborated with the operations and management teams to deliver accurate insights for data-driven planning.",
+      "Developed custom B2B and corporate reports, ensuring high data accuracy and timely delivery to stakeholders.",
+    ],
+
     website: "https://oway.com.mm",
+  },
+  {
+    title: "Accountant & Personal Assistant",
+    company: "North Okkalapa General Hospital ,University of Medicine 2",
+    period: "2011 - 2015 ( full time )",
+    logo: northOkkalarLogo,
+    description: [
+      "Provided comprehensive administrative and accounting support to the Head of Medicine & Endocrinology Department.",
+      "Prepared financial records, expense reports, and managed pharmaceutical inventory with accuracy and confidentiality.",
+      "Organized and maintained personal and professional schedules, coordinated meetings, and arranged travel logistics.",
+      "Created presentations and reports using Microsoft Excel and PowerPoint for academic and clinical use.",
+      "Liaised with hospital departments, students, and external organizations to ensure smooth communication and workflow.",
+      "Supported departmental budgeting, procurement, and documentation processes in compliance with hospital policies.",
+    ],
+
+    website: "https://um2ygn.edu.mm/northokkalapa-general-hospital/",
   },
 ];
 
